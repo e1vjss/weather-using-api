@@ -1,0 +1,89 @@
+/* CSS */
+#main {
+    background-image: url("landing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    
+  }
+  
+  #main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Make sure it takes up the full viewport height */
+  }
+  
+  .displayContainer {
+    text-align: center; /* Center the inner content horizontally */
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+  }
+  
+  #header,
+  #forecast,
+  #weeklyForecast {
+    border: 1px solid #ccc; /* Add borders for boxes */
+    padding: 20px; /* Add padding for spacing */
+    margin: 10px 0; /* Add margin for separation */
+    width: 500px; /* Set a fixed width for the boxes */
+    background-color: beige;
+  }
+  
+  .weeklyForecast {
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly */
+    width: 100%; /* Ensure the content fills the container */
+  }
+  
+  .daysOfTheWeek {
+    border: 1px solid #ccc; /* Add borders for individual day boxes */
+    padding: 10px; /* Add padding for spacing within each day box */
+    width: calc(14.2857% - 2px); /* Calculate width for each day box (7 days in a week) */
+    /* Center text horizontally */
+  }
+  /* CSS */
+
+  
+
+  
+  .displayContainer {
+    text-align: center; /* Center the inner content horizontally */
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    gap: 100px;
+  }
+  #header,
+  #forecast,
+  #weeklyForecast {
+    border: 1px solid #ccc; /* Add borders for boxes */
+    padding: 20px; /* Add padding for spacing */
+    margin: 10px 0; /* Add margin for separation */
+    width: px; /* Set a fixed width for the boxes */
+    background-color: beige;
+  }
+ 
+  #header{
+    margin-top: 100px;
+  }
+  #weeklyForecast {
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly */
+    width: 100%; /* Ensure the content fills the container */
+  }
+  
+  .daysOfTheWeek {
+    border: 1px solid #ccc; /* Add borders for individual day boxes */
+    padding: 10px; /* Add padding for spacing within each day box */
+    width: calc(14.2857% - 2px); /* Calculate width for each day box (7 days in a week) */
+    text-align: center; /* Center text horizontally */
+    
+  }
+  #forecast{
+    margin-top: 240px;
+  }
+  

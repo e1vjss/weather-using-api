@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "date-fns": "^2.30.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "scripts": {
+    "start": "lite-server"
+  }
+}
