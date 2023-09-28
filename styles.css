@@ -11,59 +11,59 @@
   #main {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    height: 100vh; /* Make sure it takes up the full viewport height */
+    justify-content: flex-start; 
+    align-items: center; 
+    height: 100vh; 
   }
   
   .displayContainer {
-    text-align: center; /* Center the inner content horizontally */
+    text-align: center; 
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
+    flex-direction: column; 
+    align-items: center; 
   }
   
   #header,
   #forecast,
   #weeklyForecast {
-    border: 1px solid #ccc; /* Add borders for boxes */
-    padding: 20px; /* Add padding for spacing */
-    margin: 10px 0; /* Add margin for separation */
-    width: 500px; /* Set a fixed width for the boxes */
+    border: 1px solid #ccc; 
+    padding: 20px; 
+    margin: 10px 0; 
+    width: 500px; 
     background-color: beige;
   }
   
   .weeklyForecast {
     display: flex;
-    justify-content: space-between; /* Distribute items evenly */
-    width: 100%; /* Ensure the content fills the container */
+    justify-content: space-between; 
+    width: 100%; 
   }
   
   .daysOfTheWeek {
-    border: 1px solid #ccc; /* Add borders for individual day boxes */
-    padding: 10px; /* Add padding for spacing within each day box */
-    width: calc(14.2857% - 2px); /* Calculate width for each day box (7 days in a week) */
-    /* Center text horizontally */
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    width: calc(14.2857% - 2px); 
+    
   }
-  /* CSS */
+  
 
   
 
   
   .displayContainer {
-    text-align: center; /* Center the inner content horizontally */
+    text-align: center; 
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
+    flex-direction: column; 
+    align-items: center; 
     gap: 100px;
   }
   #header,
   #forecast,
   #weeklyForecast {
-    border: 1px solid #ccc; /* Add borders for boxes */
-    padding: 20px; /* Add padding for spacing */
-    margin: 10px 0; /* Add margin for separation */
-    width: px; /* Set a fixed width for the boxes */
+    border: 1px solid #ccc; 
+    padding: 20px; 
+    margin: 10px 0; 
+    
     background-color: beige;
   }
  
@@ -72,15 +72,15 @@
   }
   #weeklyForecast {
     display: flex;
-    justify-content: space-between; /* Distribute items evenly */
-    width: 100%; /* Ensure the content fills the container */
+    justify-content: space-between; 
+    width: 100%; 
   }
   
   .daysOfTheWeek {
-    border: 1px solid #ccc; /* Add borders for individual day boxes */
-    padding: 10px; /* Add padding for spacing within each day box */
-    width: calc(14.2857% - 2px); /* Calculate width for each day box (7 days in a week) */
-    text-align: center; /* Center text horizontally */
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    width: calc(14.2857% - 2px); 
+    text-align: center; 
     
   }
   #forecast{
